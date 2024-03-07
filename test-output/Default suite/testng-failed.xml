@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="fetchingdatafromresponse.ReadingResponseBodyFromComplexJson">
+      <class name="serializationanddeserialization.POST_CreateUser">
         <methods>
-          <include name="getUserList"/>
+          <include name="createUser"/>
         </methods>
-      </class> <!-- fetchingdatafromresponse.ReadingResponseBodyFromComplexJson -->
+      </class> <!-- serializationanddeserialization.POST_CreateUser -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

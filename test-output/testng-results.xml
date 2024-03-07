@@ -2,16 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-05T09:02:40 IST" name="Default suite" finished-at="2024-03-05T09:02:43 IST" duration-ms="3787">
+  <suite started-at="2024-03-07T09:10:19 IST" name="Default suite" finished-at="2024-03-07T09:10:26 IST" duration-ms="7069">
     <groups>
     </groups>
-    <test started-at="2024-03-05T09:02:40 IST" name="Default test" finished-at="2024-03-05T09:02:43 IST" duration-ms="3787">
-      <class name="fetchingdatafromresponse.UsingJsonPathClassToReadReadyMadeJson">
-        <test-method signature="readData()[pri:0, instance:fetchingdatafromresponse.UsingJsonPathClassToReadReadyMadeJson@4a7f959b]" started-at="2024-03-05T09:02:40 IST" name="readData" finished-at="2024-03-05T09:02:43 IST" duration-ms="3641" status="PASS">
+    <test started-at="2024-03-07T09:10:19 IST" name="Default test" finished-at="2024-03-07T09:10:26 IST" duration-ms="7069">
+      <class name="specbuilder.CreateUser">
+        <test-method is-config="true" signature="initRequestAndResponseSpecBuilder()[pri:0, instance:specbuilder.CreateUser@25fb8912]" started-at="2024-03-07T09:10:19 IST" name="initRequestAndResponseSpecBuilder" finished-at="2024-03-07T09:10:21 IST" duration-ms="2043" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- readData -->
-      </class> <!-- fetchingdatafromresponse.UsingJsonPathClassToReadReadyMadeJson -->
+        </test-method> <!-- initRequestAndResponseSpecBuilder -->
+        <test-method signature="createUser()[pri:0, instance:specbuilder.CreateUser@25fb8912]" started-at="2024-03-07T09:10:21 IST" name="createUser" finished-at="2024-03-07T09:10:26 IST" duration-ms="4842" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+      </class> <!-- specbuilder.CreateUser -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
