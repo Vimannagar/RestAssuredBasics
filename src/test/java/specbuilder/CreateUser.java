@@ -30,6 +30,12 @@ public class CreateUser {
 		
 		requestSpecBuilder.log(LogDetail.ALL);
 		
+		
+		
+		
+		
+		
+		
 		requestSpecification = requestSpecBuilder.build();
 		
 //		Defining response properties

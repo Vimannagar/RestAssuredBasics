@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="serializationanddeserialization.POST_CreateUser">
+      <class name="basiccalls.LogWhenValidationFails">
         <methods>
-          <include name="createUser"/>
+          <include name="getListOfUsers"/>
         </methods>
-      </class> <!-- serializationanddeserialization.POST_CreateUser -->
+      </class> <!-- basiccalls.LogWhenValidationFails -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
